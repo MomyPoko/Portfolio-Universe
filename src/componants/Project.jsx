@@ -31,7 +31,7 @@ const Project = () => {
   return (
     <div
       id="Projects"
-      className="m-[80px_170px] pt-[40px] flex flex-col justify-center items-center gap-[80px] max-md:m-[50px_70px] max-md:pt-[20px] max-md:items-start"
+      className="m-[80px_170px] pt-[40px] flex flex-col justify-center items-center gap-[80px] max-md:m-[50px_50px] max-md:pt-[20px] max-md:items-start"
     >
       <h1 className="p-[0px_30px] text-[80px] font-[600] max-md:text-[50px] max-md:p-[0px]">
         My{" "}

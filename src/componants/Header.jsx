@@ -38,7 +38,7 @@ const Header = () => {
         Welcome To My Personal Portfolio
       </p>
       <div
-        className="mb-50px flex items-center gap-[25px] text-[24px] font-[500] max-md:gap-[16px] max-md:text-[18px] max-md:font-[500] max-md:mb-[50px]"
+        className="mb-[0px] flex items-center gap-[25px] text-[24px] font-[500] max-md:gap-[16px] max-md:text-[18px] max-md:font-[500] max-md:mb-[50px]"
         style={{
           animation: "fade-in 0.7s ease-out 0.8s backwards",
         }}

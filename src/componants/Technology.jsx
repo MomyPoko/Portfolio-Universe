@@ -17,12 +17,12 @@ const Technology = () => {
   return (
     <div
       id="Technologies"
-      className="m-[80px_170px] pt-[20px] flex flex-col justify-center items-center gap-[80px] max-md:m-[50px_70px] max-md:pt-[20px] max-md:items-start"
+      className="m-[80px_170px] pt-[20px] flex flex-col justify-center items-center gap-[80px] max-md:m-[50px_50px] max-md:pt-[20px] max-md:items-start"
     >
       <h1 className="p-[0px_30px] text-[80px] font-[600] bg-[linear-gradient(90deg,_hsl(var(--primary))_0%,_#FFF)] bg-clip-text text-transparent max-md:text-[50px] max-md:p-[0px]">
         Techno<span className="text-white">logies</span>
       </h1>
-      <div className="mb-[80px] flex flex-wrap gap-[60px] max-md:gap-[20px]">
+      <div className="mb-[80px] flex flex-wrap gap-[60px] max-md:gap-[15px]">
         {[
           JS,
           TS,

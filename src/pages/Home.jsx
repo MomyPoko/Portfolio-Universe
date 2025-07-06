@@ -12,7 +12,7 @@ const HomePage = () => {
     <div className="relative">
       <StarBackground />
       <Navbar />
-      <div className="absolute">
+      <div className="absolute max-w-[100vw] overflow-x-hidden">
         <Header />
         <About />
         <Technology />
