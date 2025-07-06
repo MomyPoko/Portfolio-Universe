@@ -22,7 +22,7 @@ const Technology = () => {
       <h1 className="p-[0px_30px] text-[80px] font-[600] bg-[linear-gradient(90deg,_hsl(var(--primary))_0%,_#FFF)] bg-clip-text text-transparent max-md:text-[50px] max-md:p-[0px]">
         Techno<span className="text-white">logies</span>
       </h1>
-      <div className="mb-[80px] flex flex-wrap gap-[60px] max-md:gap-[15px]">
+      <div className="mb-[80px] flex flex-wrap gap-[60px] max-md:gap-[32px]">
         {[
           JS,
           TS,
@@ -42,7 +42,7 @@ const Technology = () => {
             key={index}
             src={icon}
             alt=""
-            className={`bg-white w-[100px] h-[100px] rounded-full hover:scale-110 transition max-md:w-[80px] max-md:h-[80px]`}
+            className={`bg-white w-[100px] h-[100px] rounded-full hover:scale-110 transition max-md:w-[70px] max-md:h-[70px]`}
           />
         ))}
         {/* <img
