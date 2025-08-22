@@ -1,6 +1,7 @@
 import React from "react";
 import merrymatch from "../assets/MerryMatch.png";
 import minor from "../assets/MinorCineplex.png";
+import emoshop from "../assets/EmoShop.png";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const ProjectData = [
@@ -20,7 +21,7 @@ const ProjectData = [
   },
   {
     name: "Emo Shop",
-    img: merrymatch,
+    img: emoshop,
     Website: "",
     github: "",
     tags: ["React", "Golang", "Grpc", "K8s", "Postgres", "Docker"],
