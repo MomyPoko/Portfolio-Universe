@@ -48,7 +48,11 @@ const Header = () => {
             My Projects
           </div>
         </AnchorLink>
-        <a className="hover:border-primary hover:text-white active:scale-95 px-[40px] py-[20px] rounded-[50px] border-[2px] border-white text-[#b08ffc] cursor-pointer max-md:px-[30px] max-md:py-[15px]">
+        <a
+          href="/Resume_Chavanvit_Nongpong.pdf"
+          download="Resume_Chavanvit_Nongpong.pdf"
+          className="hover:border-primary hover:text-white active:scale-95 px-[40px] py-[20px] rounded-[50px] border-[2px] border-white text-[#b08ffc] cursor-pointer max-md:px-[30px] max-md:py-[15px]"
+        >
           My Resume
         </a>
       </div>
