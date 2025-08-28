@@ -50,13 +50,13 @@ const Project = () => {
         </span>
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {ProjectData.map((project, key) => (
           <div
             key={key}
             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
           >
-            <div className="h-48 overflow-hidden">
+            <div className="h-64 overflow-hidden">
               <img
                 src={project.img}
                 alt={project.name}
@@ -64,7 +64,7 @@ const Project = () => {
               />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 h-[calc(100%-16rem)] flex flex-col justify-between">
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag) => (
                   <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
@@ -73,23 +73,25 @@ const Project = () => {
                 ))}
               </div>
 
-              <h3 className="text-xl font-semibold mb-1"> {project.name}</h3>
-              <div className="flex justify-between items-center">
-                <div className="flex space-x-3">
-                  <a
-                    href={project.Website}
-                    target="_blank"
-                    className="pointer-events-none text-foreground/80 hover:text-primary transition-colors duration-300"
-                  >
-                    <ExternalLink size={20} />
-                  </a>
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                  >
-                    <Github size={20} />
-                  </a>
+              <div>
+                <h3 className="text-xl font-semibold mb-1"> {project.name}</h3>
+                <div className="flex justify-between items-center">
+                  <div className="flex space-x-3">
+                    <a
+                      href={project.Website}
+                      target="_blank"
+                      className="pointer-events-none text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <ExternalLink size={20} />
+                    </a>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <Github size={20} />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
