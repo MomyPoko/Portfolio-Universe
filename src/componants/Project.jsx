@@ -24,7 +24,7 @@ const ProjectData = [
     img: emoshop,
     Website: "https://emoshop.vercel.app/",
     github: "https://github.com/MomyPoko/Emo-Shop.git",
-    tags: ["React", "Golang", "Grpc", "K8s", "Postgres", "Docker"],
+    tags: ["React", "Golang", "gRPC", "K8s", "Postgres", "Docker"],
   },
 ];
 
