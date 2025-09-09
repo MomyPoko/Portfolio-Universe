@@ -50,7 +50,7 @@ const Project = () => {
         </span>
       </h1>
 
-      <div className="px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:px-20">
         {ProjectData.map((project, key) => (
           <div
             key={key}
@@ -67,7 +67,7 @@ const Project = () => {
             <div className="p-6 h-[calc(100%-16rem)] flex flex-col justify-between">
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag) => (
-                  <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                  <span className="px-1 py-0.5 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground lg:px-2 lg:py-1">
                     {tag}
                   </span>
                 ))}
